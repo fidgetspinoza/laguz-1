@@ -1,4 +1,14 @@
 import AndromedaClient, * as andr from "@andromedaprotocol/andromeda.js";
+
+
+const madeAddressList = {
+  "$type": "address-list",
+  "$class": "module",
+  "$classifier": "address",
+  "$enabled": true,
+  "$removable": true,
+  "is_inclusive": true
+}
 import { Buffer } from "buffer"
 window.Buffer = window.Buffer || Buffer;
 
