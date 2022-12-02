@@ -1,20 +1,11 @@
 import { GenerateFlexTemplateOptions, LaguzComponent, TODO_zod } from "./types";
 import { generateFlexTemplate, laguzComponent } from "./flex_template";
-import * as assert from "node:assert/strict";
-
-assert.ok(
-  process.argv.length === 6,
-  `Usage: vite-node generate_flex.ts -- <project_name> <minter_addr> <bid_valid_denom> <symbol_721>`
-);
-// expect
-const [, , project_name, minter_addr, bid_valid_denom, symbol_721] =
-  process.argv;
 
 const options: GenerateFlexTemplateOptions = {
-  project_name,
-  minter_addr,
-  bid_valid_denom,
-  symbol_721,
+  project_name: "laguz-2",
+  minter_addr: "andr15zxx4vntdvpzq3xlajufthgjp27qtzqwqa4umn",
+  bid_valid_denom: "uandr",
+  symbol_721: "LAGUZ2",
 };
 
 const components: LaguzComponent[] = [

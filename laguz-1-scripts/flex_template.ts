@@ -115,7 +115,7 @@ function generateCW721FormData(
       $enabled: true,
       $removable: true,
       name: options.project_name,
-      symbol: options["721_symbol"],
+      symbol: options["symbol_721"],
     },
   };
 }

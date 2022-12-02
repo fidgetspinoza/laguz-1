@@ -5,7 +5,7 @@ export type GenerateFlexTemplateOptions = {
   project_name: string;
   minter_addr: string;
   bid_valid_denom: string;
-  "721_symbol": string;
+  symbol_721: string;
 };
 
 export type LaguzComponent = {
