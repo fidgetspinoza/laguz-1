@@ -1,5 +1,5 @@
-import { GenerateFlexTemplateOptions, LaguzComponent, TODO_zod } from "./types";
 import { generateFlexTemplate, laguzComponent } from "./flex_template";
+import { GenerateFlexTemplateOptions, LaguzComponent } from "./laguz_types";
 
 const options: GenerateFlexTemplateOptions = {
   project_name: "laguz-2",

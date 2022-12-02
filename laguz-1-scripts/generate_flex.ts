@@ -1,6 +1,6 @@
-import { GenerateFlexTemplateOptions, LaguzComponent, TODO_zod } from "./types";
 import { generateFlexTemplate, laguzComponent } from "./flex_template";
 import * as assert from "node:assert/strict";
+import { GenerateFlexTemplateOptions, LaguzComponent } from "./laguz_types";
 
 assert.ok(
   process.argv.length === 6,

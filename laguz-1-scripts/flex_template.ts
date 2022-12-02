@@ -1,11 +1,10 @@
+import { ADOBase, FormDataKV } from "./andromeda_types";
 import {
-  ADOBase,
-  FormDataTODO,
   GenerateFlexTemplateOptions,
   LaguzComponent,
   LaguzComponentTypes,
-  TODO,
-} from "./types";
+} from "./laguz_types";
+import { TODO } from "./types";
 
 export function laguzComponent(
   options: GenerateFlexTemplateOptions,
@@ -84,7 +83,7 @@ function generateListHoldersADO(options: GenerateFlexTemplateOptions): ADOBase {
 
 function generatePublishSettingsFormData(
   options: GenerateFlexTemplateOptions
-): FormDataTODO {
+): FormDataKV {
   return {
     name: "publish-settings",
 
@@ -100,7 +99,7 @@ function generatePublishSettingsFormData(
 }
 function generateCW721FormData(
   options: GenerateFlexTemplateOptions
-): FormDataTODO {
+): FormDataKV {
   return {
     name: `${options.project_name}-721`,
 
@@ -122,7 +121,7 @@ function generateCW721FormData(
 
 function generatePrimitiveFormData(
   options: GenerateFlexTemplateOptions
-): FormDataTODO {
+): FormDataKV {
   return {
     name: `${options.project_name}-primitive`,
     value: {
@@ -137,7 +136,7 @@ function generatePrimitiveFormData(
 
 function generateBidsFormData(
   options: GenerateFlexTemplateOptions
-): FormDataTODO {
+): FormDataKV {
   return {
     name: `${options.project_name}-bid`,
     value: {
@@ -154,7 +153,7 @@ function generateBidsFormData(
 
 function generateListBiddersFormData(
   options: GenerateFlexTemplateOptions
-): FormDataTODO {
+): FormDataKV {
   return {
     name: `${options.project_name}-bidders`,
     value: {
@@ -170,7 +169,7 @@ function generateListBiddersFormData(
 
 function generateListHoldersFormData(
   options: GenerateFlexTemplateOptions
-): FormDataTODO {
+): FormDataKV {
   return {
     name: `${options.project_name}-holders`,
     value: {

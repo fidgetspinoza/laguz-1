@@ -1,4 +1,4 @@
-compare_flex_generation:
+generate_flex_compare:
   cd laguz-1-scripts && vite-node generate_and_check_flex.ts
 
 generate_flex_laguz-2:

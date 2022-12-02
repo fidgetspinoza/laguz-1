@@ -1,8 +1,9 @@
 import * as fs from "node:fs/promises";
 import * as path from "node:path";
 import * as assert from "node:assert/strict";
-import { GenerateFlexTemplateOptions, LaguzComponent, TODO_zod } from "./types";
 import { generateFlexTemplate, laguzComponent } from "./flex_template";
+import { GenerateFlexTemplateOptions, LaguzComponent } from "./laguz_types";
+import { TODO_zod } from "./types";
 
 const options: GenerateFlexTemplateOptions = {
   project_name: "laguz-1",
