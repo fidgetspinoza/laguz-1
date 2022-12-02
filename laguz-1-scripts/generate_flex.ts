@@ -22,8 +22,8 @@ const components: LaguzComponent[] = [
   laguzComponent(options, "721"),
   laguzComponent(options, "primitive"),
   laguzComponent(options, "bid"),
-  laguzComponent(options, "bidders"),
-  laguzComponent(options, "holders"),
+  // laguzComponent(options, "bidders"),
+  // laguzComponent(options, "holders"),
 ];
 
 const generatedFlexTemplate = generateFlexTemplate(components);
