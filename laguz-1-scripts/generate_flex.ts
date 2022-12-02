@@ -19,4 +19,4 @@ const components: LaguzComponent[] = [
 
 const generatedFlexTemplate = generateFlexTemplate(components);
 
-console.log(generatedFlexTemplate);
+console.log(JSON.stringify(generatedFlexTemplate, null, 2));
