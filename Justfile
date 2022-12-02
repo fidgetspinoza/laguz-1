@@ -14,3 +14,6 @@ generate_sample_flex:
 
 frontend_dev:
   cd laguz-1-frontend && npm run dev
+
+cargo:
+  cd laguz-1-contract && cargo update && cargo build

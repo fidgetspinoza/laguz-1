@@ -3,6 +3,20 @@
 version = 3
 
 [[package]]
+name = "ado-base"
+version = "0.1.0"
+source = "git+https://github.com/andromedaprotocol/andromeda-core/?branch=development#247ed4d37a90ce2ff1acba691a82acff30cd1ad3"
+dependencies = [
+ "common",
+ "cosmwasm-std",
+ "cw-storage-plus 0.13.4",
+ "cw2 0.13.4",
+ "schemars",
+ "semver",
+ "serde",
+]
+
+[[package]]
 name = "ahash"
 version = "0.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -572,7 +586,9 @@ dependencies = [
 name = "laguz-1-contract"
 version = "0.1.0"
 dependencies = [
+ "ado-base",
  "andromeda-non-fungible-tokens",
+ "common",
  "cosmwasm-std",
  "cw-utils 0.13.4",
  "cw721",

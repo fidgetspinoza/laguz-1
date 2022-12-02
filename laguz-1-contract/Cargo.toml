@@ -19,4 +19,6 @@ cw721-base = { version = "0.13.2", features=["library"]}
 
 # common = { path = "../common", version = "0.1.0" }
 andromeda-non-fungible-tokens = { git = "https://github.com/andromedaprotocol/andromeda-core/", branch = "development" }
+ado-base = { git = "https://github.com/andromedaprotocol/andromeda-core/", branch = "development" }
+common = { git = "https://github.com/andromedaprotocol/andromeda-core/", branch = "development" }
 
