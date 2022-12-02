@@ -1,1 +1,7 @@
-{"$type":"primitive","$class":"primitive","$classifier":"","$enabled":true,"$removable":true}
+{
+    "$type": "primitive",
+    "$class": "primitive",
+    "$classifier": "",
+    "$enabled": true,
+    "$removable": true
+}

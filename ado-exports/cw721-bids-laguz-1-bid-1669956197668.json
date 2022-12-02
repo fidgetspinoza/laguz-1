@@ -1,1 +1,9 @@
-{"$type":"cw721-bids","$class":"baseADO","$classifier":"sale","$enabled":true,"$removable":true,"andromeda_cw721_contract":"laguz-1-721","valid_denom":"uandr"}
+{
+    "$type": "cw721-bids",
+    "$class": "baseADO",
+    "$classifier": "sale",
+    "$enabled": true,
+    "$removable": true,
+    "andromeda_cw721_contract": "laguz-1-721",
+    "valid_denom": "uandr"
+}

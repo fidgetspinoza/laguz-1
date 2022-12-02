@@ -1,1 +1,13 @@
-{"minter":{"identifier":"andr15zxx4vntdvpzq3xlajufthgjp27qtzqwqa4umn"},"modules":[],"$type":"cw721","$class":"baseADO","$classifier":"collectible","$enabled":true,"$removable":true,"name":"laguz-1","symbol":"LAGUZ1"}
+{
+    "minter": {
+        "identifier": "andr15zxx4vntdvpzq3xlajufthgjp27qtzqwqa4umn"
+    },
+    "modules": [],
+    "$type": "cw721",
+    "$class": "baseADO",
+    "$classifier": "collectible",
+    "$enabled": true,
+    "$removable": true,
+    "name": "laguz-1",
+    "symbol": "LAGUZ1"
+}

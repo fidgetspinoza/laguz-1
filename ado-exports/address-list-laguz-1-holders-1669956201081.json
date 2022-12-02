@@ -1,1 +1,8 @@
-{"$type":"address-list","$class":"module","$classifier":"address","$enabled":true,"$removable":true,"is_inclusive":true}
+{
+    "$type": "address-list",
+    "$class": "module",
+    "$classifier": "address",
+    "$enabled": true,
+    "$removable": true,
+    "is_inclusive": true
+}
