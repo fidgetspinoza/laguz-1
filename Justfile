@@ -1,3 +1,5 @@
+grow: generate_flex_compare generate_flex_laguz-2 generate_sample_flex
+
 generate_flex_compare:
   cd laguz-1-scripts && vite-node generate_and_check_flex.ts
 
